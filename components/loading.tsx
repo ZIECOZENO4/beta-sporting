@@ -1,9 +1,9 @@
 'use client'
 import React from 'react'
 import { CirclesWithBar } from 'react-loader-spinner'
-function AppLoader() {
+function AppLoad() {
   return (
-    <div className=' w-[100vw] h-[100vh]'>       
+    <div>       
         <CirclesWithBar
     height="100"
     width="100"
@@ -19,4 +19,4 @@ function AppLoader() {
   )
 }
 
-export default AppLoader
+export default AppLoad
