@@ -3,7 +3,7 @@ import React from 'react'
 import { CirclesWithBar } from 'react-loader-spinner'
 function AppLoader() {
   return (
-    <div>       
+    <div className=' w-[100vw] h-[100vh]'>       
         <CirclesWithBar
     height="100"
     width="100"
