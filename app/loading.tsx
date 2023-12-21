@@ -5,7 +5,7 @@ import AppLoader from '@/components/loading'
 
 function Loading() {
   return (
-    <div className=' bg-black justify-center flex align-middle items-center m-9 w-full h-[100vh]' >  
+    <div className=' bg-black justify-center m-0 p-0 flex align-middle items-center  w-full h-[100vh]' >  
     <AppLoader />
  </div>
 
