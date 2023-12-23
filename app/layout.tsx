@@ -29,12 +29,12 @@ export default function RootLayout({
         <Topbar />
 <Navtwo />     
 <Phonenav />
-<div className='w-[100vw] p-0 z-10  m-0'>{children}</div>
-            <div className='z-0'>
+<div className='w-[100vw] p-0   m-0'>{children}</div>
+            <div className='z-10'>
               <div className=' w-full md:hidden h-[100px] bg-black' />
               <Bottombar />      
             </div>
-        </div>
+        </div> 
         </Providers>
         </body>
     </html>

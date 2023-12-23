@@ -7,14 +7,14 @@ import Image from "next/image";
 import { useState } from 'react';
 import { SignedIn, SignedOut, UserButton,  } from "@clerk/nextjs";
 import AccoutDropdown from "./accountdropdown";
+import { usePathname } from 'next/navigation';
 export default function Topbar() {
   const { isLoaded, isSignedIn, user } = useUser();
   const [dropdownVisible, setDropdownVisible] = useState(false);
+  const pathname = usePathname();
   if (!isLoaded) {
     return null;
   }
-
-
   return (
     <Navbar className=" bg-gradient-to-tl from-violet-200 via-red-900 to-stone-500 bg-opacity-75 sticky ">
       <NavbarBrand>
@@ -30,28 +30,28 @@ export default function Topbar() {
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4 hover:text-green-500 border-b-green-600" justify="center">
         <NavbarItem>
-          <Link color="foreground" href="/sports"  className=" text-[20px] font-bold font-serif">
+          <Link color="foreground" href="/sports"  className={`${pathname === "/sports" ? "text-[30px] text-green-600 font-bold font-serif  border-x-2 border-x-red-400 box" : "text-[20px] font-bold font-serif "}`}>
             Sports
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="/predictions"  className=" text-[20px] font-bold font-serif">
+          <Link color="foreground" href="/predictions"  className={`${pathname === "/predictions" ? "text-[30px] text-green-600 font-bold font-serif  border-x-2 border-x-red-400 box" : "text-[20px] font-bold font-serif "}`}>
            Prediction
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="/games" className=" text-[20px] font-bold font-serif">
+          <Link color="foreground" href="/games" className={`${pathname === "/games" ? "text-[30px] text-green-600 font-bold font-serif  border-x-2 border-x-red-400 box" : "text-[20px] font-bold font-serif "}`}>
             Games
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="/features" className=" text-[20px] font-bold font-serif">
+          <Link color="foreground" href="/features" className={`${pathname === "/features" ? "text-[30px] text-green-600 font-bold font-serif  border-x-2 border-x-red-400 box" : "text-[20px] font-bold font-serif "}`}>
             Features
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="/results"  className=" text-[20px] font-bold font-serif">
-           Results
+          <Link color="foreground" href="/watchnow"  className={`${pathname === "/watchnow" ? "text-[30px] text-green-600 font-bold font-serif  border-x-2 border-x-red-400 box" : "text-[20px] font-bold font-serif "}`}>
+           Watch Now
           </Link>
         </NavbarItem>
         <NavbarItem
@@ -59,7 +59,7 @@ export default function Topbar() {
               onMouseLeave={() => setDropdownVisible(false)}
               className="relative inline-block text-left"
         >
-          <Link color="foreground" href="/account" className=" text-[20px] font-bold font-serif">
+          <Link color="foreground" href="/account" className={`${pathname === "/account" ? "text-[30px] text-green-600 font-bold font-serif  border-x-2 border-x-red-400 box" : "text-[20px] font-bold font-serif "}`}>
            Account
           </Link>
                 {dropdownVisible && (
@@ -71,7 +71,7 @@ export default function Topbar() {
       )}
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="/bet" className=" text-[20px] font-bold font-serif">
+          <Link color="foreground" href="/bet" className={`${pathname === "/bet" ? "text-[30px] text-green-600 font-bold font-serif  border-x-2 border-x-red-400 box" : "text-[20px] font-bold font-serif "}`}>
             Place Bet
           </Link>
         </NavbarItem>
