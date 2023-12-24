@@ -1,6 +1,6 @@
 'use client';
 import { motion } from "framer-motion";
-import { footerVariants } from "@/utils/motion";
+import { footerVariants } from "../../libs/motion";
 import Link from "next/link";
 import Image from "next/image";
 
