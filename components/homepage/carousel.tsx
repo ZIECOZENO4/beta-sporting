@@ -1,6 +1,5 @@
 'use client'
-import Image from 'next/image';
-import { Carousel } from 'react-responsive-carousel';
+import { Carousel } from 'flowbite-react';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { useState } from 'react';
 import { WalletComponent } from './wallet component';
@@ -25,7 +24,17 @@ export default function Herosection() {
       </header>
     
       </div>
-<Carousel autoPlay infiniteLoop interval={5000} className=' md:w-[40vw] md:h-[300px] h-[200px] md:p-0 m-0' >
+
+      <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
+      <Carousel leftControl="left" rightControl="right">
+        <img src="https://flowbite.com/docs/images/carousel/carousel-1.svg" alt="..." />
+        <img src="https://flowbite.com/docs/images/carousel/carousel-2.svg" alt="..." />
+        <img src="https://flowbite.com/docs/images/carousel/carousel-3.svg" alt="..." />
+        <img src="https://flowbite.com/docs/images/carousel/carousel-4.svg" alt="..." />
+        <img src="https://flowbite.com/docs/images/carousel/carousel-5.svg" alt="..." />
+      </Carousel>
+    </div>
+{/* <Carousel autoPlay infiniteLoop interval={5000} className=' md:w-[40vw] md:h-[300px] h-[200px] md:p-0 m-0' >
       <div className=' relative h-[100px]  md:h-[250px]'>
         <Image 
         alt='image one'
@@ -67,13 +76,15 @@ export default function Herosection() {
         src="/images/field2.JPG" 
         layout='fill'
         />
-      </div>    <div className=' relative h-[150px]  md:h-[250px]'>
+      </div>    
+      <div className=' relative h-[150px]  md:h-[250px]'>
         <Image 
         alt='image one'
         src="/images/a1.jpg" 
         layout='fill'
         />
-      </div>    <div className=' relative h-[150px]  md:h-[250px]'>
+      </div>    
+      <div className=' relative h-[150px]  md:h-[250px]'>
         <Image 
         alt='image one'
         src="/images/a6.jpg" 
@@ -105,7 +116,7 @@ export default function Herosection() {
         <source src="/videos/video1.mp4" type="video/mp4" />
         </video>
       </div>
-    </Carousel>
+    </Carousel> */}
     <div className='hidden   md:flex md:flex-row md:p-0 md:m-0 md:bg-opacity-80   md:bg-slate-100  md:h-[400px] md:w-[40vw] '>
  
     <header className=' mx-1 ml-[5px] pl-[5px] mt-[40px] bg-opacity-70 justify-center'>
