@@ -1,8 +1,6 @@
 import React from "react";
 import ItemsContainer from "./ItemsContainer";
-import SocialIcons from "./SocialIcons";
-import { Icons } from "./Menus";
-
+import Image from 'next/image'
 const Footer = () => {
   return (
     <footer className="bg-gray-900 w-[100vw] text-white m-0 p-0 mb-0 pb-0">
@@ -36,7 +34,12 @@ const Footer = () => {
         <span>© 2023 Beta Sporting. All rights reserved.</span>
         <span>Terms · Privacy Policy</span>
         <div className='sm:pb-[20px]' >
-          
+        <div className=" mt-2 flex md:gap-10 gap-8 ">
+        <Image src="/images/fb.png" alt="" width={26} height={26}  className='hover:text-gray-100 hover:bg-teal-500"'/>
+        <Image src="/images/in.png" alt="" width={26} height={26}  className='hover:text-gray-100 hover:bg-teal-500"'/>
+        <Image src="/images/xb.png" alt="" width={26} height={26}  className='hover:text-gray-100 hover:bg-teal-500"'/>
+        <Image src="/images/yo.png" alt="" width={26} height={26}  className='hover:text-gray-100 hover:bg-teal-500"'/>
+      </div>
         </div>
       </div>
     </footer>

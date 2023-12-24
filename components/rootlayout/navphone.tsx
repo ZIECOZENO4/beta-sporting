@@ -8,8 +8,8 @@ export default function Phonenav() {
   const pathname = usePathname();
 
   return (
-    <Navbar className={`bg-slate-400 md:hidden flex justify-center w-[100vw]`}>
-      <NavbarContent className="md:hidden w-[100vw] gap-4" justify="center">
+    <Navbar className={`bg-slate-400 md:hidden flex justify-between px-2 w-[100vw]`}>
+      <NavbarContent className="md:hidden w-[100vw] gap-8" justify="center">
         {['Sports  | ', 'Predictions', 'Games', 'Blog'].map((link, index) => {
           const route = link.replace("|", "").trim().toLowerCase();
           const isActive = pathname.includes(route);

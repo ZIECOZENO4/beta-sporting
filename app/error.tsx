@@ -15,7 +15,7 @@ function Error({ statusCode }: { statusCode: number }) {
         ? `An error ${statusCode} occurred on server`
         : 'An error occurred on client'}
     </p>
-                            <p className="my-2 text-gray-800">Sorry about that! Please Contact our Beta developers.</p>
+                            <p className="my-2 text-gray-100">Sorry about that! Please Contact our Beta developers.</p>
                             <button className="sm:w-full lg:w-auto my-2 border rounded md py-4 px-8 text-center bg-indigo-600 text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-700 focus:ring-opacity-50">I have an issue</button>
                         </div>
                     </div>
