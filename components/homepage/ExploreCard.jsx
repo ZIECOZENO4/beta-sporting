@@ -1,6 +1,6 @@
 'use client';
 import { motion } from "framer-motion";
-import { fadeIn } from "../../libs/utils";
+import { fadeIn } from "../../libs/motion";
 import Image from "next/image";
 import Link from "next/link";
 

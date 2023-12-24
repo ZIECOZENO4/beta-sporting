@@ -4,7 +4,7 @@ import { useState} from 'react';
 import { motion } from "framer-motion";
 import styles from './index';
 import {TitleText, TypingText} from './customTexts'
-import {staggerContainer} from '../../constants/index';
+import {staggerContainer} from '../../libs/motion';
 import {exploreWorlds} from '../../constants/index'
 import ExploreCard from './ExploreCard'
 const Explore = () =>{ 
