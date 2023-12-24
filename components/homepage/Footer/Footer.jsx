@@ -34,7 +34,7 @@ const Footer = () => {
         <span>© 2023 Beta Sporting. All rights reserved.</span>
         <span>Terms · Privacy Policy</span>
         <div className='sm:pb-[20px]' >
-        <div className=" mt-2 flex md:gap-10 gap-8 ">
+        <div className=" mt-2 md:mt-0 justify-center align-middle items-center mx-3 md:mx-0 flex md:gap-10 gap-8 ">
         <Image src="/images/fb.png" alt="" width={26} height={26}  className='hover:text-gray-100 hover:bg-teal-500"'/>
         <Image src="/images/in.png" alt="" width={26} height={26}  className='hover:text-gray-100 hover:bg-teal-500"'/>
         <Image src="/images/xb.png" alt="" width={26} height={26}  className='hover:text-gray-100 hover:bg-teal-500"'/>
