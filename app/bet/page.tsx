@@ -1,15 +1,15 @@
+import React from 'react'
+import Bet from "@/components/bet component/bet"
 
-const Bet= () => {
+const BetHome = () => {
  return (
-   <div className='main'>
-       <div className="overlay"></div>
-       <video src="/videos/video1.mp4" autoPlay loop muted />
-       <div className="content">
-           <h1>Welcome</h1>
-           <p>To my site.</p>
-       </div>
-   </div>
+ <div className='relative w-full h-screen overflow-hidden'>
+  <video src="/videos/betbg.mp4"  autoPlay loop muted className="absolute w-full h-full object-cover"/>
+  <div className="relative z-10">
+    <Bet />
+  </div>
+ </div>
  )
 }
 
-export default Bet
+export default BetHome
