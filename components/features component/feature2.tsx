@@ -102,7 +102,7 @@ export default function Feature2() {
                </h4>
                <p className="text-body-color">
              For those who subscribed to our plan, either mopnthly or yearly  are all give a payback or percentage refund depending 
-             on the plan you subscribed. Kinding visit the office page to get your's now.
+             on the plan you subscribed. Kinding visit the office page to get your&apos;s now.
                </p>
             </div>
          </div>
@@ -245,7 +245,7 @@ export default function Feature2() {
                   Support Us
                </h4>
                <p className="text-body-color">
-               After listing seeing all these features you might be excited by the offers we give to our members, opps that's a good job by the Beta Sporting team, you can buy us a Coffee, join our developer's team or report complaints or any illegal actions on Beta Sporting. All is highly appreciated by us, thanks.
+               After listing seeing all these features you might be excited by the offers we give to our members, opps that&apos;s a good job by the Beta Sporting team, you can buy us a Coffee, join our developer&apos;s team or report complaints or any illegal actions on Beta Sporting. All is highly appreciated by us, thanks.
                </p>
             </div>
          </div>
