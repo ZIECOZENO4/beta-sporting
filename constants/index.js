@@ -18,8 +18,8 @@ export const allbarLinks = [
     }, 
     {
       imgURL: "/assets/user.svg",
-      route: "/profile",
-      label: "Profile",
+      route: "/account",
+      label: "Account",
     },
   ];
   
