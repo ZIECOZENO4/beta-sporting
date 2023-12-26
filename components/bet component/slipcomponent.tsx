@@ -132,7 +132,7 @@ export default function SlipComponent() {
      
 </div>
 <div className=" flex justify-between align-middle items-center mt-2">
-  <article className=" text-red-600 sm:text-small">NOTE:  Please if you are not of the age of 18, kindly avoid betting -ZIECO ZENO- </article>
+  <article className="hidden md:flex text-red-600 md:text-small">NOTE:  Please if you are not of the age of 18, kindly avoid betting -ZIECO ZENO- </article>
 <Button onPress={onOpen} color="secondary" className=" rounded-full  ml-1">Ask Me</Button>
 <Modal 
         backdrop="opaque" 

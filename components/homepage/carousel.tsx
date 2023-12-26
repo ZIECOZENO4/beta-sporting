@@ -25,7 +25,7 @@ export default function Herosection() {
     
       </div>
 
-      <div className="md:w-[40vw] md:h-[300px] h-[300px] md:p-0 m-0">
+      <div className="md:w-[40vw] md:h-[300px] h-[300px] md:p-0 m-0 ">
       <Carousel>
         <img src="/images/bsi.png"  alt="..." />
         <img src="/images/football.jpg" alt="..." />

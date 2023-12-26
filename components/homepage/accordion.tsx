@@ -1,6 +1,7 @@
 'use client';
 
 import { Accordion } from 'flowbite-react';
+import Link from 'next/link';
 
 export default function DefaultAccordion() {
   return (
@@ -25,14 +26,14 @@ export default function DefaultAccordion() {
             <h3>
               How to get sarted with Beta Sporting and Football mathematics
             </h3>
-            <a
+            <Link
               className="text-cyan-600 hover:underline dark:text-cyan-500"
               href="https://flowbite.com/docs/getting-started/introduction/"
             >
               <h3>
                 get started with Beta
               </h3>
-            </a>
+            </Link>
             <h3>
               Get started with Beta Sporting, and unleach your power of prediction, we will also make you understand the inner part of football and football mathematics. BETA SPORTING WE DEY WIN.
             </h3>
@@ -52,22 +53,22 @@ export default function DefaultAccordion() {
               has a design equivalent in our Figma file.
             </p>
           </h2>
-          <p className="text-gray-500 dark:text-gray-400">
+          <div className="text-gray-500 dark:text-gray-400">
             <p>
               Check out the
             </p>
-            <a
+            <Link
               className="text-cyan-600 hover:underline dark:text-cyan-500"
               href="https://flowbite.com/figma/"
             >
               <p>
                 Figma design system
               </p>
-            </a>
+            </Link>
             <p>
               based on the utility classes from Tailwind CSS and components from Flowbite.
             </p>
-          </p>
+          </div>
         </Accordion.Content>
       </Accordion.Panel>
       <Accordion.Panel>
@@ -95,17 +96,17 @@ export default function DefaultAccordion() {
           </h2>
           <ul className="list-disc pl-5 text-gray-500 dark:text-gray-400">
             <li>
-              <a
+              <Link
                 className="text-cyan-600 hover:underline dark:text-cyan-500"
                 href="https://flowbite.com/pro/"
               >
                 <h3>
                   Beta Sporting Pro
                 </h3>
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 className="text-cyan-600 hover:underline dark:text-cyan-500"
                 href="https://tailwindui.com/"
                 rel="nofollow"
@@ -113,7 +114,7 @@ export default function DefaultAccordion() {
                 <h3>
                   Beta Sporting.com
                 </h3>
-              </a>
+              </Link>
             </li>
           </ul>
         </Accordion.Content>
