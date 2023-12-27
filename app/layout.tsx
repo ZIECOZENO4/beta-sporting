@@ -32,8 +32,10 @@ export default function RootLayout({
 <div className='w-[100vw] p-0   m-0'>{children}</div>
             <div className='z-10'>
               <div className=' w-full md:hidden h-[100px] bg-black' />
-              <Bottombar />      
+              <Bottombar /> 
+              
             </div>
+            <div className=' md:hidden h-[5vh] w-[full]'/>  
         </div> 
         </Providers>
         </body>
