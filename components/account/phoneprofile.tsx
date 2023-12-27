@@ -16,7 +16,7 @@ export default function Phonep1() {
      <div className="text-center font-normal text-lg">Total Balance</div>
      <div className="px-6 text-center mt-1 font-light text-sm">
        <p>
-         200 dollars
+         200 Dollars
        </p>
      </div>
      <hr className="mt-4"/>
