@@ -23,7 +23,7 @@ function Phone3() {
     <div className=' h-[2px] w-full bg-black' />
     <div className=' m-2 px-2 flex justify-between'>
       <h1 className=' text-[20px] font-header'>User Name</h1>
-      <div className=' flex justify-between '>
+      <div className=' flex justify-between text-green-600 text-[20px] '>
       {user ? user.username : (
           <input
             type="text"
