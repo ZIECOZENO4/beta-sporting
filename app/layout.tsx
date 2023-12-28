@@ -31,11 +31,10 @@ export default function RootLayout({
 <Phonenav />
 <div className='w-[100vw] p-0   m-0'>{children}</div>
             <div className='z-10'>
-              <div className=' w-full md:hidden h-[100px] bg-black' />
+              <div className=' w-full md:hidden h-[100px] bg-gradient-to-tl from-black via-slate-700 to-slate-900' />
               <Bottombar /> 
               
             </div>
-            <div className=' md:hidden h-[5vh] w-[full]'/>  
         </div> 
         </Providers>
         </body>

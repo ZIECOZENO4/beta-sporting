@@ -5,7 +5,7 @@ function Alerts() {
     <div>
         <div className='flex flex-col md:hidden'>
             <h1 className="flex justify-center align-middle items-start m-10 text-slate-300 text-2xl font-heading ">
-             View All Alerts and Notifications
+             View All Alerts
             </h1>
             <div>
             <h1 className="flex justify-center align-middle items-start m-5 text-slate-300 text-heading font-heading ">

@@ -12,11 +12,11 @@ export default function Phonep1() {
 <div className="bg-gray-200 font-sans h-[40vh] -mt-12 w-full flex flex-row justify-center items-center">
   <div className="card w-96 mx-auto bg-white  shadow-xl hover:shadow">
      <img className="w-32 mx-auto rounded-full -mt-20 border-8 border-white" src={ user ? user.imageUrl : "/images/bsi.png"} alt=""/>
-     <div className="text-center mt-1 text-3xl font-medium">zieco zeno</div>
+     <div className="text-center mt-1 text-3xl font-medium">{ user ? user.username : "Beta User"}</div>
      <div className="text-center font-normal text-lg">Total Balance</div>
      <div className="px-6 text-center mt-1 font-light text-sm">
        <p>
-         200 Dollars
+        $ 200 
        </p>
      </div>
      <hr className="mt-4"/>
