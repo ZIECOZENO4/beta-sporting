@@ -9,7 +9,6 @@ function Phone3() {
   const { user } = useUser();
   const handleClick = () => {
     if (!user) {
-      // User is not logged in, show a message or redirect them to the login page
       alert('Please log in first');
       return;
     }
