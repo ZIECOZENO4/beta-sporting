@@ -42,7 +42,6 @@ export default function RootLayout({
     <Footer />  
           </div>
           <div className=''>
-          <div className=' w-full md:hidden h-[100px] bg-gradient-to-tl from-black via-slate-700 to-slate-900' />
               <Bottombar />      
             </div>
         </div>
