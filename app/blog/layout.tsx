@@ -25,7 +25,7 @@ export default function BlogLayout({ children,
            </div>}>
            <body className={inter.className}>
           <div className=' overflow-hidden bg-gradient-to-tl from-black via-slate-700 to-slate-900 items-center w-[100vw] '>
-             <div className=' z-50'>
+             <div className=''>
              </div>
              <div className=" ">           
                 <NavbarBlog />
