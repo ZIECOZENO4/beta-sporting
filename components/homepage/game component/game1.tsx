@@ -3,7 +3,9 @@ import React from 'react'
 
 function  MatchesComponent() {
   return (
-    <div>   <FootballPage /></div>
+    <div>   
+      <FootballPage />
+      </div>
   )
 }
 
