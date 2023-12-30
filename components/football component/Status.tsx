@@ -1,8 +1,8 @@
 "use client"
 
 import {useState} from 'react'
-import { matchesType } from '../../../types'
-import LeagueTable from '../../football component/LeagueTable'
+import { matchesType } from '../../types'
+import LeagueTable from './LeagueTable'
 
 const Status = ({matchesList,matchesListFinished}:{matchesList:matchesType[], matchesListFinished:matchesType[]}) => {
 
