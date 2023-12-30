@@ -3,9 +3,6 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Bottombar from '@/components/rootlayout/bottombar';
 import AppLoad from '@/components/loading';
-import Topbar from '@/components/rootlayout/Tobar';
-import Navtwo from '@/components/rootlayout/topnav';
-import Phonenav from '@/components/rootlayout/navphone';
 import Footer from '@/components/homepage/Footer/Footer';
 import Sidebar from '@/components/football component/Sidebar';
 import News from '@/components/football component/News';
@@ -28,11 +25,9 @@ export default function RootLayout({
         <div className=' bg-black justify-center m-0 p-0 flex align-middle items-center w-full h-[100vh]' > 
          <AppLoad />
          </div>}>
-      <body className={inter.className}>
-        <main className=''>
-        <Topbar />
-<Navtwo />     
-<Phonenav />
+      <div className={inter.className}>
+        <div className='bg-gradient-to-tl from-black via-slate-700 to-slate-900'>
+
           <section className='md:flex md:space-x-4'>
             <Sidebar />
 
@@ -47,11 +42,11 @@ export default function RootLayout({
     <Footer />  
           </div>
           <div className=''>
-          <div className=' w-full md:hidden h-[100px] bg-black' />
+          <div className=' w-full md:hidden h-[100px] bg-gradient-to-tl from-black via-slate-700 to-slate-900' />
               <Bottombar />      
             </div>
-        </main>
-      </body>
+        </div>
+      </div>
       </Suspense>
 
   )

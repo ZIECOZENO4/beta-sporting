@@ -1,8 +1,6 @@
-
 import { Suspense } from 'react';
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import Topbar from '@/components/rootlayout/Tobar';
 import NavbarBlog from '../../components/blog component/navbar/Navbar'
 import FooterBlog from '../../components/blog component/footer/Footer'
 import Bottombar from '@/components/rootlayout/bottombar';
@@ -28,7 +26,6 @@ export default function BlogLayout({ children,
            <body className={inter.className}>
           <div className=' overflow-hidden bg-gradient-to-tl from-black via-slate-700 to-slate-900 items-center w-[100vw] '>
              <div className=' z-50'>
-             <Topbar />
              </div>
              <div className=" ">           
                 <NavbarBlog />
