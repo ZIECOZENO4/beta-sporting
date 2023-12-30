@@ -23,7 +23,7 @@ export default function BlogLayout({ children,
           <div className=' bg-black justify-center m-0 p-0 flex align-middle items-center w-full h-[100vh]' > 
            <AppLoad />
            </div>}>
-           <body className={inter.className}>
+           <div className={inter.className}>
           <div className=' overflow-hidden bg-gradient-to-tl from-black via-slate-700 to-slate-900 items-center w-[100vw] '>
              <div className=''>
              </div>
@@ -34,7 +34,7 @@ export default function BlogLayout({ children,
              </div>
            <Bottombar />
              </div>
-             </body>
+             </div>
           </Suspense>
   
 

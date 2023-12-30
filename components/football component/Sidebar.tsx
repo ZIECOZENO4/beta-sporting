@@ -9,7 +9,7 @@ const Leagues = [
   { id:5,name:"Ligue 1",href:"/football/ligue-1",emblem:"/images/ligue_1.webp"},
   { id:6,name:"Championship",href:"/football/championship",emblem:"/images/championship.webp"},
   { id:7,name:"Primeira Liga",href:"/football/primeira-liga",emblem:"/images/liga_portugal.webp"},
-  { id:8,name:"Brazilian Championship Series A",href:"/football/brazilian-series-a",emblem:"/images/brazilian_serie_a.webp"},
+  { id:8,name:"Brazilian Series A",href:"/football/brazilian-series-a",emblem:"/images/brazilian_serie_a.webp"},
   { id:9,name:"Copa Libertadores",href:"/football/copa-libertadores",emblem:"/images/copa_libertadores.webp"},
 ]
 
