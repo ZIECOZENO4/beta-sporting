@@ -1,6 +1,6 @@
 
 import { FC,} from "react";
-// import { client } from "@/utils/sanity/client";
+
 import Featured from  './featured/Featured'
 import Hero from "./hero";
 import Hit from "./blogssections/hit";
@@ -20,22 +20,7 @@ type Post = {
 };
 
 const BlogPage: FC = () => {
-//  const [posts, setPosts] = useState<Post[]>([]);
-//  const [loading, setLoading] = useState(true);
 
-//  useEffect(() => {
-//    const fetchPosts = async () => {
-//      const allPosts = await client.fetch<Post[]>(`*[_type == "post"]`);
-//      setPosts(allPosts);
-//      setLoading(false);
-//    };
-
-//    fetchPosts();
-//  }, []);
-
-//  if (loading) {
-//    return <div className=' flex justify-center align-middle items-center'><AppLoad /></div>;
-//  }
 
  return (
   <div className=' '>
@@ -63,36 +48,3 @@ export default BlogPage;
 
 
 
-
-
-// interface Props {
-//   posts: [Post];
-// } 
-// export default function Home({posts}: Props) {
-
-
-//   return (
-   
-//   );
-// }
-
-
-// // export const getServerSideProps = async () =>{
-// //   const query = `*[_type == "post"]{
-// //     _id,
-// //     title,
-// //     author -> {
-// //       name,
-// //       image
-// //     },
-// //     description,
-// //     mainImage,
-// //     slug
-// //   }`
-// //   const posts =await sanityClient.fetch(query);
-// //   return{
-// //     props: {
-// // posts,
-// //     }
-// //   }
-// // }
