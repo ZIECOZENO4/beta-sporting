@@ -6,10 +6,10 @@ import { authMiddleware } from "@clerk/nextjs";
 
 export default authMiddleware({
     // An array of public routes that don't require authentication.
-    publicRoutes: ["/","/games","/results","/blog","/predictions","/home","/sports",],
+    publicRoutes: ["/","/games","/results","/blog","/predictions","/home","/sports"],
   
     // An array of routes to be ignored by the authentication middleware.
-    ignoredRoutes: ["/","/games","/results","/blog","/predictions","/home","/sports",],
+    ignoredRoutes: ["/","/games","/results","/blog","/predictions","/home","/sports"],
   });
   
 export const config = {

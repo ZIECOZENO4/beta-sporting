@@ -3,9 +3,10 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import TopGoals from './Top Goals';
 import TopNews from './Top News';
+import TopMatches from './topmatches';
 
 function SportsTables() {
- const [activeTab, setActiveTab] = useState('Statistics');
+ const [activeTab, setActiveTab] = useState('Matches');
 
  return (
  <div>
@@ -43,7 +44,7 @@ function SportsTables() {
      </motion.header>
    </div>
    <div  className=' h-1 w-full bg-slate-300 mt-2 mb-5'/>
-   {activeTab === 'Matches' && <div>Football content</div>}
+   {activeTab === 'Matches' && <div><TopMatches /></div>}
    {activeTab === 'News' && <div><TopNews /></div>}
    {activeTab === 'Table' && <div>American Football content</div>}
    {activeTab === 'Top Goals' && <div><TopGoals /></div>}

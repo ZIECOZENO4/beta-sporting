@@ -53,3 +53,10 @@ export type apiOptions = {
     url: string,
     urlToImage: string,
   }
+  export interface BlogAdvert {
+    _createdAt: string;
+    adverttitle: string;
+    advertbody: string;
+    mainImage: string;
+    currentSlug:string;
+  }
