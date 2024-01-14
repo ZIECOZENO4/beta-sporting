@@ -65,3 +65,8 @@ export type apiOptions = {
     herobody: string;
     currentSlug:string;
   }
+  export interface Shorts {
+    shortstitle: string;
+    shortsImage: string;
+    currentSlug:string;
+  }
