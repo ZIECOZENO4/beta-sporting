@@ -60,3 +60,8 @@ export type apiOptions = {
     mainImage: string;
     currentSlug:string;
   }
+  export interface Hero{
+    _createdAt: string;
+    herobody: string;
+    currentSlug:string;
+  }

@@ -10,14 +10,7 @@ import LivelyShorts from "./blogssections/shorts";
 import CategoryList from './categoryList/CategoryList';
 import Menu from './Menu/Menu'
 
-type Post = {
- _id: string;
- title?: string;
- post: string;
- slug?: {
-   current: string;
- };
-};
+
 
 const BlogPage: FC = () => {
 
