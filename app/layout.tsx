@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import {Providers} from "./providers";
-
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { ClerkProvider } from '@clerk/nextjs'
 import Topbar from '@/components/rootlayout/Tobar';
 import Navtwo from '@/components/rootlayout/topnav';
@@ -29,7 +29,10 @@ export default function RootLayout({
         <Topbar />
 <Navtwo />     
 <Phonenav />
-<div className='w-[100vw] p-0   m-0'>{children}</div>
+<div className='w-[100vw] p-0   m-0'>
+  {children}
+  <SpeedInsights />
+</div>
             <div className='z-10'>
               <div className=' w-full md:hidden h-[100px] bg-gradient-to-tl from-black via-slate-700 to-slate-900' />
               <Bottombar /> 

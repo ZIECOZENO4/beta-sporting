@@ -35,7 +35,7 @@ async function getAdvertData() {
           <img src={image} alt="Image" className="absolute inset-0 z-10 h-full w-full object-cover opacity-70" />
           <figcaption className="absolute inset-x-0 bottom-1 z-20 w-96 mx-auto p-4 font-light text-sm text-center tracking-widest leading-snug bg-gray-300 bg-opacity-25">
         {post.herobody}
-        <p  className=" text-green-500">{post._createdAt}</p>
+        <p  className=" text-black">{post._createdAt}</p>
           </figcaption>
         </figure>
       ))}
