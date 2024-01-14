@@ -6,7 +6,7 @@ function SomeoneSay() {
 
     <section className=" ">
         <div className="container px-6 pt-10 mx-auto">
-            <h1 className="text-2xl md:text-3xl font-semibold text-gray-300 capitalize lg:text-4xl dark:text-white">Our Posts</h1>
+            <h1 className="text-2xl md:text-3xl font-semibold text-gray-300 capitalize lg:text-4xl dark:text-white">Your Posts</h1>
     
             <div className="grid grid-cols-1 gap-8 mt-2 md:mt-2 md:grid-cols-2">
                 <div className="lg:flex">
