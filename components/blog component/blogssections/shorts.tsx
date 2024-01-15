@@ -19,8 +19,9 @@ async function getAdvertData() {
     const data:Shorts[] = await getAdvertData()
     console.log(data);
   return (
-  <div className="div">
-            <h2 className="text-2xl md:text-3xl font-extrabold text-gray-300 md:mt-8 m-4">Lively Shorts On Beta</h2>
+    <div className="">
+       <h2 className="text-2xl md:text-3xl font-extrabold text-gray-300 md:mt-8 m-4">Lively Shorts On Beta</h2>
+  <div className="md:grid md:grid-cols-3 md:gap-5 md:mx-5">
             {data.map((post, idx) => (
       <article key={idx}
       className="relative w-full  my-3 md:my-5 h-64 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl  transition duration-300 ease-in-out"
@@ -40,6 +41,8 @@ async function getAdvertData() {
     </article>
        ))}
   </div>
+    </div>
+
 
   );
 };
